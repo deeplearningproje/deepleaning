@@ -1,0 +1,62 @@
+GPU count:1, Memory growth:True, Soft device placement:True ...
+Train on 180000 samples, validate on 20000 samples
+Epoch 1/20    
+Epoch 00001: val_loss improved from inf to 0.11718, saving model to ./result/config_0/best_weights.h5
+180000/180000 [==============================] - 454s 3ms/sample - loss: 0.2025 - accuracy: 0.9293 - f1_m: 0.4942 - recall_m: 0.4159 - precision_m: 0.7008 - sensitivity_at_specificity: 0.9586 - specificity: 0.9354 - val_loss: 0.1172 - val_accuracy: 0.9550 - val_f1_m: 0.7419 - val_recall_m: 0.6841 - val_precision_m: 0.8129 - val_sensitivity_at_specificity: 0.9951 - val_specificity: 0.9663
+Epoch 2/20
+Epoch 00002: val_loss improved from 0.11718 to 0.10045, saving model to ./result/config_0/best_weights.h5
+180000/180000 [==============================] - 448s 2ms/sample - loss: 0.1279 - accuracy: 0.9526 - f1_m: 0.7437 - recall_m: 0.6758 - precision_m: 0.8289 - sensitivity_at_specificity: 0.9939 - specificity: 0.9598 - val_loss: 0.1004 - val_accuracy: 0.9611 - val_f1_m: 0.7932 - val_recall_m: 0.7885 - val_precision_m: 0.7992 - val_sensitivity_at_specificity: 0.9978 - val_specificity: 0.9587
+Epoch 3/20
+Epoch 00003: val_loss improved from 0.10045 to 0.09602, saving model to ./result/config_0/best_weights.h5
+180000/180000 [==============================] - 448s 2ms/sample - loss: 0.1094 - accuracy: 0.9588 - f1_m: 0.7828 - recall_m: 0.7288 - precision_m: 0.8465 - sensitivity_at_specificity: 0.9929 - specificity: 0.9655 - val_loss: 0.0960 - val_accuracy: 0.9615 - val_f1_m: 0.7993 - val_recall_m: 0.8099 - val_precision_m: 0.7894 - val_sensitivity_at_specificity: 0.9948 - val_specificity: 0.9641
+Epoch 4/20
+Epoch 00004: val_loss did not improve from 0.09602
+180000/180000 [==============================] - 447s 2ms/sample - loss: 0.0972 - accuracy: 0.9626 - f1_m: 0.8058 - recall_m: 0.7618 - precision_m: 0.8560 - sensitivity_at_specificity: 0.9932 - specificity: 0.9691 - val_loss: 0.0982 - val_accuracy: 0.9611 - val_f1_m: 0.8038 - val_recall_m: 0.8413 - val_precision_m: 0.7698 - val_sensitivity_at_specificity: 0.9955 - val_specificity: 0.9593
+Epoch 5/20 
+Epoch 00005: val_loss improved from 0.09602 to 0.09229, saving model to ./result/config_0/best_weights.h5
+180000/180000 [==============================] - 448s 2ms/sample - loss: 0.1259 - accuracy: 0.9532 - f1_m: 0.7346 - recall_m: 0.6812 - precision_m: 0.8233 - sensitivity_at_specificity: 0.9938 - specificity: 0.9606 - val_loss: 0.0923 - val_accuracy: 0.9629 - val_f1_m: 0.8055 - val_recall_m: 0.8114 - val_precision_m: 0.8000 - val_sensitivity_at_specificity: 0.9973 - val_specificity: 0.9628
+Epoch 6/20
+Epoch 00006: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 446s 2ms/sample - loss: 0.0966 - accuracy: 0.9627 - f1_m: 0.8065 - recall_m: 0.7637 - precision_m: 0.8550 - sensitivity_at_specificity: 0.9932 - specificity: 0.9692 - val_loss: 0.0947 - val_accuracy: 0.9618 - val_f1_m: 0.8068 - val_recall_m: 0.8415 - val_precision_m: 0.7753 - val_sensitivity_at_specificity: 0.9956 - val_specificity: 0.9604
+Epoch 7/20
+Epoch 00007: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 446s 2ms/sample - loss: 0.0895 - accuracy: 0.9648 - f1_m: 0.8191 - recall_m: 0.7821 - precision_m: 0.8601 - sensitivity_at_specificity: 0.9940 - specificity: 0.9712 - val_loss: 0.0967 - val_accuracy: 0.9613 - val_f1_m: 0.8049 - val_recall_m: 0.8426 - val_precision_m: 0.7707 - val_sensitivity_at_specificity: 0.9930 - val_specificity: 0.9614
+Epoch 8/20
+Epoch 00008: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 446s 2ms/sample - loss: 0.0852 - accuracy: 0.9661 - f1_m: 0.8263 - recall_m: 0.7923 - precision_m: 0.8637 - sensitivity_at_specificity: 0.9947 - specificity: 0.9723 - val_loss: 0.0954 - val_accuracy: 0.9616 - val_f1_m: 0.8048 - val_recall_m: 0.8344 - val_precision_m: 0.7777 - val_sensitivity_at_specificity: 0.9929 - val_specificity: 0.9625
+Epoch 9/20 
+Epoch 00009: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 446s 2ms/sample - loss: 0.0808 - accuracy: 0.9674 - f1_m: 0.8337 - recall_m: 0.8025 - precision_m: 0.8678 - sensitivity_at_specificity: 0.9953 - specificity: 0.9736 - val_loss: 0.0974 - val_accuracy: 0.9618 - val_f1_m: 0.8061 - val_recall_m: 0.8375 - val_precision_m: 0.7774 - val_sensitivity_at_specificity: 0.9904 - val_specificity: 0.9639
+Epoch 10/20
+Epoch 00010: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 446s 2ms/sample - loss: 0.0767 - accuracy: 0.9686 - f1_m: 0.8406 - recall_m: 0.8119 - precision_m: 0.8717 - sensitivity_at_specificity: 0.9959 - specificity: 0.9747 - val_loss: 0.1024 - val_accuracy: 0.9604 - val_f1_m: 0.8012 - val_recall_m: 0.8424 - val_precision_m: 0.7641 - val_sensitivity_at_specificity: 0.9903 - val_specificity: 0.9619
+Epoch 11/20
+Epoch 00011: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 446s 2ms/sample - loss: 0.0810 - accuracy: 0.9674 - f1_m: 0.8334 - recall_m: 0.8018 - precision_m: 0.8682 - sensitivity_at_specificity: 0.9953 - specificity: 0.9735 - val_loss: 0.1024 - val_accuracy: 0.9603 - val_f1_m: 0.8008 - val_recall_m: 0.8426 - val_precision_m: 0.7634 - val_sensitivity_at_specificity: 0.9894 - val_specificity: 0.9630
+Epoch 12/20 
+Epoch 00012: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 448s 2ms/sample - loss: 0.0767 - accuracy: 0.9687 - f1_m: 0.8408 - recall_m: 0.8121 - precision_m: 0.8721 - sensitivity_at_specificity: 0.9959 - specificity: 0.9747 - val_loss: 0.0983 - val_accuracy: 0.9614 - val_f1_m: 0.8048 - val_recall_m: 0.8391 - val_precision_m: 0.7737 - val_sensitivity_at_specificity: 0.9906 - val_specificity: 0.9644
+Epoch 13/20
+Epoch 00013: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 448s 2ms/sample - loss: 0.0724 - accuracy: 0.9701 - f1_m: 0.8485 - recall_m: 0.8225 - precision_m: 0.8764 - sensitivity_at_specificity: 0.9965 - specificity: 0.9759 - val_loss: 0.1020 - val_accuracy: 0.9605 - val_f1_m: 0.8014 - val_recall_m: 0.8412 - val_precision_m: 0.7654 - val_sensitivity_at_specificity: 0.9906 - val_specificity: 0.9619
+Epoch 14/20 
+Epoch 00014: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 445s 2ms/sample - loss: 0.0698 - accuracy: 0.9710 - f1_m: 0.8535 - recall_m: 0.8294 - precision_m: 0.8792 - sensitivity_at_specificity: 0.9967 - specificity: 0.9767 - val_loss: 0.1066 - val_accuracy: 0.9599 - val_f1_m: 0.7994 - val_recall_m: 0.8429 - val_precision_m: 0.7605 - val_sensitivity_at_specificity: 0.9859 - val_specificity: 0.9641
+Epoch 15/20
+Epoch 00015: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 450s 2ms/sample - loss: 0.0697 - accuracy: 0.9711 - f1_m: 0.8542 - recall_m: 0.8301 - precision_m: 0.8799 - sensitivity_at_specificity: 0.9967 - specificity: 0.9768 - val_loss: 0.1029 - val_accuracy: 0.9606 - val_f1_m: 0.8010 - val_recall_m: 0.8371 - val_precision_m: 0.7682 - val_sensitivity_at_specificity: 0.9881 - val_specificity: 0.9641
+Epoch 16/20 
+Epoch 00016: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 451s 3ms/sample - loss: 0.0673 - accuracy: 0.9719 - f1_m: 0.8587 - recall_m: 0.8363 - precision_m: 0.8824 - sensitivity_at_specificity: 0.9970 - specificity: 0.9775 - val_loss: 0.1051 - val_accuracy: 0.9599 - val_f1_m: 0.7996 - val_recall_m: 0.8459 - val_precision_m: 0.7585 - val_sensitivity_at_specificity: 0.9878 - val_specificity: 0.9626
+Epoch 17/20 
+Epoch 00017: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 448s 2ms/sample - loss: 0.0661 - accuracy: 0.9724 - f1_m: 0.8610 - recall_m: 0.8395 - precision_m: 0.8837 - sensitivity_at_specificity: 0.9971 - specificity: 0.9779 - val_loss: 0.1087 - val_accuracy: 0.9601 - val_f1_m: 0.8004 - val_recall_m: 0.8437 - val_precision_m: 0.7616 - val_sensitivity_at_specificity: 0.9846 - val_specificity: 0.9646
+Epoch 18/20  
+Epoch 00018: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 450s 2ms/sample - loss: 0.0678 - accuracy: 0.9719 - f1_m: 0.8581 - recall_m: 0.8354 - precision_m: 0.8824 - sensitivity_at_specificity: 0.9968 - specificity: 0.9774 - val_loss: 0.1037 - val_accuracy: 0.9613 - val_f1_m: 0.8037 - val_recall_m: 0.8364 - val_precision_m: 0.7736 - val_sensitivity_at_specificity: 0.9860 - val_specificity: 0.9662
+Epoch 19/20 
+Epoch 00019: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 449s 2ms/sample - loss: 0.0651 - accuracy: 0.9728 - f1_m: 0.8632 - recall_m: 0.8426 - precision_m: 0.8850 - sensitivity_at_specificity: 0.9972 - specificity: 0.9782 - val_loss: 0.1082 - val_accuracy: 0.9600 - val_f1_m: 0.8000 - val_recall_m: 0.8442 - val_precision_m: 0.7604 - val_sensitivity_at_specificity: 0.9856 - val_specificity: 0.9644
+Epoch 20/20
+Epoch 00020: val_loss did not improve from 0.09229
+180000/180000 [==============================] - 449s 2ms/sample - loss: 0.0639 - accuracy: 0.9732 - f1_m: 0.8654 - recall_m: 0.8456 - precision_m: 0.8864 - sensitivity_at_specificity: 0.9973 - specificity: 0.9785 - val_loss: 0.1113 - val_accuracy: 0.9598 - val_f1_m: 0.7996 - val_recall_m: 0.8466 - val_precision_m: 0.7579 - val_sensitivity_at_specificity: 0.9837 - val_specificity: 0.9648
